@@ -33,18 +33,6 @@
     </url>
   
     <url>
-      <loc>https://blog.uasier.com/</loc>
-      
-      <lastmod>2019-01-31T20:10:31+08:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
       <loc>https://blog.uasier.com/post/</loc>
       
       <lastmod>2019-01-31T20:10:31+08:00</lastmod>
@@ -58,6 +46,18 @@
   
     <url>
       <loc>https://blog.uasier.com/tags/</loc>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://blog.uasier.com/</loc>
+      
+      <lastmod>2019-01-31T20:10:31+08:00</lastmod>
       
       
       
