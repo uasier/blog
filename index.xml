@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site on My New Hugo Site</title>
-    <link>https://uasier.github.io/</link>
+    <link>https://blog.uasier.com/</link>
     <description>Recent content in My New Hugo Site on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>First</title>
-      <link>https://uasier.github.io/post/first/</link>
+      <link>https://blog.uasier.com/post/first/</link>
       <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
       
-      <guid>https://uasier.github.io/post/first/</guid>
+      <guid>https://blog.uasier.com/post/first/</guid>
       <description>&lt;pre&gt;&lt;code&gt;### Hello Hugo
 
  1. aaa
@@ -26,10 +26,10 @@
     
     <item>
       <title>About</title>
-      <link>https://uasier.github.io/about/</link>
+      <link>https://blog.uasier.com/about/</link>
       <pubDate>Thu, 31 Jan 2019 20:09:31 +0800</pubDate>
       
-      <guid>https://uasier.github.io/about/</guid>
+      <guid>https://blog.uasier.com/about/</guid>
       <description></description>
     </item>
     

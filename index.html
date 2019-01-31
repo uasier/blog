@@ -12,7 +12,7 @@
   
   
   
-  <link rel="canonical" href="https://uasier.github.io/" />
+  <link rel="canonical" href="https://blog.uasier.com/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -34,8 +34,8 @@
 
 
   
-    <link href="https://uasier.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
-    <link href="https://uasier.github.io/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+    <link href="https://blog.uasier.com/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+    <link href="https://blog.uasier.com/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
   
   
 
@@ -43,7 +43,7 @@
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "https://uasier.github.io/",
+    "url": "https://blog.uasier.com/",
     "name": "My New Hugo Site",
     "author": {
         "@type": "Person",
@@ -64,10 +64,18 @@
         <nav class="navbar">
     <div class="container">
         <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://uasier.github.io/">My New Hugo Site</a>
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://blog.uasier.com/">My New Hugo Site</a>
         </div>
         <div class="menu navbar-right">
                 
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
                 
         </div>
     </div>
@@ -75,7 +83,7 @@
 <nav class="navbar-mobile" id="nav-mobile" style="display: none">
      <div class="container">
         <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://uasier.github.io/">My New Hugo Site</a></div>
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://blog.uasier.com/">My New Hugo Site</a></div>
             <div class="menu-toggle">
                 <span></span><span></span><span></span>
             </div>
@@ -83,6 +91,14 @@
      
           <div class="menu" id="mobile-menu">
                 
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
                 
         </div>
     </div>
@@ -97,14 +113,32 @@
     
     <div class="social-links">
       
+<a href="https://github.com/xxoo" target="_blank" rel="me noopener"><i class="iconfont icon-github"></i></a>
 
 
+
+<a href="https://twitter.com/xxoo" target="_blank" rel="me noopener"><i class="iconfont icon-twitter"></i></a>
+
+
+<a href="https://www.instagram.com/xxoo/" target="_blank" rel="me noopener"><i class="iconfont icon-instagram"></i></a> 
  
 
+<a href="javascript:void(0);" target="_blank" rel="me noopener" onclick="document.getElementById('lightbox').style.display='inline';"><i class="iconfont icon-wechat"></i></a> 
 
 
+<a href="mailto:xxoo" rel="me noopener"><i class="iconfont icon-mail01"></i></a>
 
 
+<a href="https://facebook.com/xxoo" rel="me noopener"><i class="iconfont icon-facebook"></i></a>
+
+
+<a href="https://t.me/xxoo" rel="me noopener"><i class="iconfont icon-telegram"></i></a>
+
+
+<a href="https://dribbble.com/xxoo" rel="me noopener"><i class="iconfont icon-dribbble"></i></a>
+
+
+<a href="https://medium.com/xxoo" rel="me noopener"><i class="iconfont icon-medium-circle-fill"></i></a>
 
 
     </div>
@@ -112,6 +146,50 @@
 
 
  
+
+
+<style type="text/css">
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+
+.center {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -110px;
+}
+
+.center img {
+    width: 220px;
+}
+
+.center i {
+    color: #fff;
+    font-size: 1.5em;
+    position: relative;
+    float: right;
+    top: 0px;
+    right: -20px;
+    cursor: pointer;
+}
+</style>
+
+
+<div id="lightbox" style="display: none" class="lightbox" onclick="document.getElementById('lightbox').style.display='none';">
+    <div class="center">
+        <i class="iconfont icon-close"></i>
+        <img src="/images/me/wechat.jpeg">
+    </div>
+</div>
+
 
 
   
