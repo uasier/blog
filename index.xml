@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://uasier.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>My New Hugo Site on My New Hugo Site</title>
+    <link>https://uasier.github.io/</link>
+    <description>Recent content in My New Hugo Site on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 20:10:31 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
-	<atom:link href="http://uasier.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://uasier.github.io/post/first/</link>
+      <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
+      
+      <guid>https://uasier.github.io/post/first/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;### Hello Hugo
+
+ 1. aaa
+ 1. bbb
+ 1. ccc
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
+    <item>
+      <title>About</title>
+      <link>https://uasier.github.io/about/</link>
+      <pubDate>Thu, 31 Jan 2019 20:09:31 +0800</pubDate>
+      
+      <guid>https://uasier.github.io/about/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
