@@ -11,10 +11,10 @@
     
     <item>
       <title>First</title>
-      <link>https://blog.uasier.com/post/first/</link>
+      <link>https://blog.uasier.com/2019/first/</link>
       <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/post/first/</guid>
+      <guid>https://blog.uasier.com/2019/first/</guid>
       <description>&lt;pre&gt;&lt;code&gt;### Hello Hugo
 
  1. aaa
@@ -26,10 +26,10 @@
     
     <item>
       <title>About</title>
-      <link>https://blog.uasier.com/about/</link>
+      <link>https://blog.uasier.com/about/about/</link>
       <pubDate>Thu, 31 Jan 2019 20:09:31 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/about/</guid>
+      <guid>https://blog.uasier.com/about/about/</guid>
       <description></description>
     </item>
     

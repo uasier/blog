@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Uasier</title>
-    <link>https://blog.uasier.com/post/</link>
+    <link>https://blog.uasier.com/posts/</link>
     <description>Recent content in Posts on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Jan 2019 20:10:31 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.uasier.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uasier.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First</title>
-      <link>https://blog.uasier.com/post/first/</link>
+      <link>https://blog.uasier.com/2019/first/</link>
       <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/post/first/</guid>
+      <guid>https://blog.uasier.com/2019/first/</guid>
       <description>### Hello Hugo 1. aaa 1. bbb 1. ccc  </description>
     </item>
     

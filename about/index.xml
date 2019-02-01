@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Uasier</title>
+    <link>https://blog.uasier.com/about/</link>
+    <description>Recent content in Abouts on Uasier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 20:09:31 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.uasier.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.uasier.com/about/about/</link>
+      <pubDate>Thu, 31 Jan 2019 20:09:31 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/about/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
