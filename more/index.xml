@@ -12,12 +12,27 @@
     
     
     <item>
-      <title>About</title>
-      <link>https://blog.uasier.com/more/about/</link>
+      <title>AboutME</title>
+      <link>https://blog.uasier.com/more/aboutme/</link>
       <pubDate>Thu, 31 Jan 2019 20:09:31 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/more/about/</guid>
-      <description></description>
+      <guid>https://blog.uasier.com/more/aboutme/</guid>
+      <description>☀️ UASIER&amp;rsquo;S RESUME V2019.2.1 💬 个人简历是一个随时间变化的内容，故此我将我的简历作为了一个repo 存放在我的github 内
+💬 ​可以移步🔗https://github.com/uasier/resume 来查看我的最新简历信息
+😄 基本信息  姓名：李小金 出生日期：1996/07/22 邮箱：admin@uasier.com 主页：https://uasier.com  😏 自我评价 1️⃣：有趣的灵魂撑起了我庞大的身躯 （这直接导致我计划减肥）
+2️⃣：性格开朗，十分乐观
+3️⃣：十级话痨
+4️⃣ ：非典型强迫症患者
+5️⃣：超级无敌大吃货
+👀 他人评价 💬：欢迎大兄弟们提issue
+1️⃣：一个接近四年没见面的小姐姐：乐观开朗积极活泼，柠檬精。
+2️⃣：一个每年都要一起聚会的小姐姐：吃火锅盘子摞的最高的，吃货
+👨🏻‍🎓 教育经历 1️⃣：合肥工业大学 本科 2015&amp;frasl;9 - 2019&amp;frasl;7 计算机科学与技术专业
+2️⃣：南陵中学 高中 2012&amp;frasl;9 - 2015&amp;frasl;6 理科
+💬：本科学历，只好拿高中学校来填数了，hhhh
+🏢 实习经历 1️⃣：中国育儿网 实习php后端开发 2018/7/10 - 2018/12/20
+ 接入微服务调用链（zipkin） 协同其他人开发维护微服务cicd（负责代码逻辑部分） 维护公司开发者后台项目 开发与维护账号服务系统 开发维护公司内部composer包 重构开发CMS服务系统 维护后端开发培训wiki  💬：emmm 感觉这是我这辈子唯一的一次实习经历，hhhhh
+🏢 工作经历 💬：emmm,还没毕业呢</description>
     </item>
     
   </channel>
