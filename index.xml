@@ -6,8 +6,30 @@
     <description>Recent content in Uasier on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Jan 2019 20:10:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 14:25:57 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MyFriends</title>
+      <link>https://blog.uasier.com/more/myfriends/</link>
+      <pubDate>Fri, 01 Feb 2019 14:25:57 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/more/myfriends/</guid>
+      <description>
+
+&lt;h1 id=&#34;友链&#34;&gt;🔗友链&lt;/h1&gt;
+
+&lt;h2 id=&#34;博客&#34;&gt;博客&lt;/h2&gt;
+
+&lt;p&gt;it&amp;rsquo;s empty now.&lt;/p&gt;
+
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+
+&lt;h3 id=&#34;工具&#34;&gt;工具&lt;/h3&gt;
+
+&lt;p&gt;🔗 &lt;a href=&#34;http://www.dooccn.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;dooccn&lt;/a&gt; : 从php 到go 我都在用这个网站提供的在线运行功能，实属牛逼。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First</title>

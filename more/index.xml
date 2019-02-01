@@ -6,10 +6,20 @@
     <description>Recent content in Mores on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Jan 2019 20:09:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 14:25:57 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.uasier.com/more/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MyFriends</title>
+      <link>https://blog.uasier.com/more/myfriends/</link>
+      <pubDate>Fri, 01 Feb 2019 14:25:57 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/more/myfriends/</guid>
+      <description>🔗友链 博客 it&amp;rsquo;s empty now.
+其他 工具 🔗 dooccn : 从php 到go 我都在用这个网站提供的在线运行功能，实属牛逼。</description>
+    </item>
     
     <item>
       <title>AboutME</title>
