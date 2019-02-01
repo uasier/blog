@@ -13,7 +13,7 @@
     </url>
   
     <url>
-      <loc>https://blog.uasier.com/about/about/</loc>
+      <loc>https://blog.uasier.com/more/about/</loc>
       
       <lastmod>2019-01-31T20:09:31+08:00</lastmod>
       
@@ -23,9 +23,7 @@
     </url>
   
     <url>
-      <loc>https://blog.uasier.com/about/</loc>
-      
-      <lastmod>2019-01-31T20:09:31+08:00</lastmod>
+      <loc>https://blog.uasier.com/categories/</loc>
       
       
       
@@ -35,7 +33,9 @@
     </url>
   
     <url>
-      <loc>https://blog.uasier.com/categories/</loc>
+      <loc>https://blog.uasier.com/more/</loc>
+      
+      <lastmod>2019-01-31T20:09:31+08:00</lastmod>
       
       
       
