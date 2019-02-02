@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Uasier</title>
-    <link>https://blog.uasier.com/posts/</link>
-    <description>Recent content in Posts on Uasier</description>
+    <title>php on Uasier</title>
+    <link>https://blog.uasier.com/tags/php/</link>
+    <description>Recent content in php on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Feb 2019 14:09:29 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.uasier.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uasier.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
       <description>【设计模式】单例模式 为什么要使用单例模式 php中有哪些方式实现新建一个对象实例  通过new实例化对象 通过clone复制对象 通过序列化反序列化得到对象实例 通过类的反射实例化对象  如何阻止这种实例化实现理想的单例模式 1. new test();//通过new实例化对象	: 通过更改构造方法为private 阻止使用方直接new 对象 3. 通过clone复制对象 : 通过定义private __clone()阻止复制操作 4. 通过序列化反序列化得到对象实例 ：通过定义__wakeup()阻止对象的反序列化。 5. 通过类的反射实例化对象：暂时还没有相应的方法去阻止使用此方法实现对象多例  代码实现 &amp;lt;?php /** * Created by PhpStorm. * User: Uasier * Date: 2018/10/17 * Time: 15:10 */ /** * 单例模式实例 */ class Singleton { /** * 私有变量存实例 * @var Singleton */ private static $instance; /** * 私有构造函数 * Singleton constructor. */ private function __construct() { var_dump(&#39;构造了对象&#39;); } /** * clone 魔术方法 */ private function __clone() { var_dump(&#39;复制了对象&#39;); } /** * sleep 魔术方法 * @return array */ public function __sleep(){ //todo 如何阻止 var_dump(&#39;序列化了对象&#39;); return []; } /** * wakeup 魔术方法 */ public function __wakeup(){ //todo 如何阻止 var_dump(&#39;反序列化了对象&#39;); } /** * 公有获取实例方法 * @return Singleton */ public static function getInstance() { if (!</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://blog.uasier.com/2019/01/first/</link>
-      <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
-      
-      <guid>https://blog.uasier.com/2019/01/first/</guid>
-      <description>### Hello Hugo  </description>
     </item>
     
   </channel>
