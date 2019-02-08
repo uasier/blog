@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实用技巧 on Uasier</title>
+    <link>https://blog.uasier.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in 实用技巧 on Uasier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Feb 2019 14:09:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.uasier.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【实用技巧】在md文档中添加视频的方法</title>
+      <link>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 08 Feb 2019 14:09:29 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description> 在markdown 文档中添加视频的方法 代码块：
+&amp;lt;iframe width=&amp;quot;800&amp;quot; height=&amp;quot;450&amp;quot; src=&amp;quot;//player.bilibili.com/player.html?aid=16688970&amp;amp;cid=27215876&amp;amp;page=1&amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; 暂时不支持视频插入，请联系我，谢谢。 &amp;lt;/iframe&amp;gt;  注意事项： 1. 必须要标明height 否则iframe就会特别小 2. 注意属性是需要引号的，单引双引都ok 3. 有些网站分享出来的代码块是有问题的，需要调整（for example 哔哩哔哩 需要调整为以上格式）  markdown上显示效果：
+暂时不支持视频插入，请联系我，谢谢。  </description>
+    </item>
+    
+  </channel>
+</rss>

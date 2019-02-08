@@ -9,9 +9,9 @@
   <meta name="description" content="uasier 的个人博客站点">
   <meta name="keywords" content="uasier,个人博客,技术交流，经验分享，人生总结">
   
+  <link rel="prev" href="https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" />
   
-  <link rel="next" href="https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" />
-  <link rel="canonical" href="https://blog.uasier.com/2019/01/first/" />
+  <link rel="canonical" href="https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           First | Uasier
+           【实用技巧】在md文档中添加视频的方法 | Uasier
        
   </title>
-  <meta name="title" content="First | Uasier">
+  <meta name="title" content="【实用技巧】在md文档中添加视频的方法 | Uasier">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https://blog.uasier.com/"
     },
     "articleSection" : "posts",
-    "name" : "First",
-    "headline" : "First",
-    "description" : "### Hello Hugo  ",
+    "name" : "【实用技巧】在md文档中添加视频的方法",
+    "headline" : "【实用技巧】在md文档中添加视频的方法",
+    "description" : "在md文档中添加视频的方法",
     "inLanguage" : "en-us",
     "author" : "uasier",
     "creator" : "uasier",
@@ -54,11 +54,11 @@
     "accountablePerson" : "uasier",
     "copyrightHolder" : "uasier",
     "copyrightYear" : "2019",
-    "datePublished": "2019-01-31 20:10:31 &#43;0800 CST",
-    "dateModified" : "2019-01-31 20:10:31 &#43;0800 CST",
-    "url" : "https://blog.uasier.com/2019/01/first/",
-    "wordCount" : "3",
-    "keywords" : [  "Uasier"]
+    "datePublished": "2019-02-08 14:09:29 &#43;0800 CST",
+    "dateModified" : "2019-02-08 14:09:29 &#43;0800 CST",
+    "url" : "https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/",
+    "wordCount" : "27",
+    "keywords" : [ "实用技巧","markdown", "Uasier"]
 }
 </script>
 
@@ -116,14 +116,19 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">First</h1>
+        <h1 class="post-title" itemprop="name headline">【实用技巧】在md文档中添加视频的方法</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://blog.uasier.com/" rel="author">uasier</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-01-31 itemprop="datePublished">January 31, 2019</time>
+                on <time datetime=2019-02-08 itemprop="datePublished">February 8, 2019</time>
                 </span>
                 in
-                
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://blog.uasier.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"> 实用技巧 </a>
+                        <a href="https://blog.uasier.com/categories/markdown/"> markdown </a>
+                        
+                </span>
         </div>
     </header>
     <div class="post-content">
@@ -142,8 +147,44 @@
           
           
 
-          <pre><code>### Hello Hugo
+          
+
+<h3 id="在markdown-文档中添加视频的方法">在markdown 文档中添加视频的方法</h3>
+
+<p>代码块：</p>
+
+<pre><code class="language-html">&lt;iframe 
+    width=&quot;800&quot; 
+    height=&quot;450&quot; 
+    src=&quot;//player.bilibili.com/player.html?aid=16688970&amp;cid=27215876&amp;page=1&quot; 
+    scrolling=&quot;no&quot; 
+    border=&quot;0&quot; 
+    frameborder=&quot;no&quot; 
+    framespacing=&quot;0&quot; 
+    allowfullscreen=&quot;true&quot;&gt;
+    暂时不支持视频插入，请联系我，谢谢。
+&lt;/iframe&gt;
 </code></pre>
+
+<pre><code class="language-注意事项">注意事项：
+    1. 必须要标明height 否则iframe就会特别小
+    2. 注意属性是需要引号的，单引双引都ok
+    3. 有些网站分享出来的代码块是有问题的，需要调整（for example 哔哩哔哩 需要调整为以上格式）
+</code></pre>
+
+<p>markdown上显示效果：</p>
+
+<iframe 
+    width="800" 
+    height="450" 
+    src="//player.bilibili.com/player.html?aid=16688970&cid=27215876&page=1" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true">
+    暂时不支持视频插入，请联系我，谢谢。
+</iframe>
 
     </div>
 
@@ -158,7 +199,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://blog.uasier.com/2019/01/first/>https://blog.uasier.com/2019/01/first/</span>
+                    <a href=https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</span>
             </p>
             
              
@@ -171,6 +212,17 @@
   
     <div class="post-tags">
         
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://blog.uasier.com/tags/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/">
+                    #实用技巧</a></span>
+            
+            <span class="tag"><a href="https://blog.uasier.com/tags/markdown/">
+                    #markdown</a></span>
+            
+            </section>
+        
         <section>
                 <a href="javascript:window.history.back();">back</a></span> · 
                 <span><a href="https://blog.uasier.com/">home</a></span>
@@ -178,9 +230,9 @@
     </div>
 
     <div class="post-nav">
-         
         
-        <a href="https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" class="next" rel="next" title="【设计模式php实现】单例模式">【设计模式php实现】单例模式&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" class="prev" rel="prev" title="【设计模式php实现】单例模式"><i class="iconfont icon-left"></i>&nbsp;【设计模式php实现】单例模式</a>
+         
         
     </div>
 

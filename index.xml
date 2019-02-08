@@ -6,8 +6,55 @@
     <description>Recent content in Uasier on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Feb 2019 14:09:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Feb 2019 14:09:29 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>【实用技巧】在md文档中添加视频的方法</title>
+      <link>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 08 Feb 2019 14:09:29 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>
+
+&lt;h3 id=&#34;在markdown-文档中添加视频的方法&#34;&gt;在markdown 文档中添加视频的方法&lt;/h3&gt;
+
+&lt;p&gt;代码块：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;iframe 
+    width=&amp;quot;800&amp;quot; 
+    height=&amp;quot;450&amp;quot; 
+    src=&amp;quot;//player.bilibili.com/player.html?aid=16688970&amp;amp;cid=27215876&amp;amp;page=1&amp;quot; 
+    scrolling=&amp;quot;no&amp;quot; 
+    border=&amp;quot;0&amp;quot; 
+    frameborder=&amp;quot;no&amp;quot; 
+    framespacing=&amp;quot;0&amp;quot; 
+    allowfullscreen=&amp;quot;true&amp;quot;&amp;gt;
+    暂时不支持视频插入，请联系我，谢谢。
+&amp;lt;/iframe&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-注意事项&#34;&gt;注意事项：
+    1. 必须要标明height 否则iframe就会特别小
+    2. 注意属性是需要引号的，单引双引都ok
+    3. 有些网站分享出来的代码块是有问题的，需要调整（for example 哔哩哔哩 需要调整为以上格式）
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;markdown上显示效果：&lt;/p&gt;
+
+&lt;iframe 
+    width=&#34;800&#34; 
+    height=&#34;450&#34; 
+    src=&#34;//player.bilibili.com/player.html?aid=16688970&amp;cid=27215876&amp;page=1&#34; 
+    scrolling=&#34;no&#34; 
+    border=&#34;0&#34; 
+    frameborder=&#34;no&#34; 
+    framespacing=&#34;0&#34; 
+    allowfullscreen=&#34;true&#34;&gt;
+    暂时不支持视频插入，请联系我，谢谢。
+&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>【设计模式php实现】单例模式</title>
@@ -17,7 +64,7 @@
       <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
       <description>
 
-&lt;h2 id=&#34;设计模式-单例模式&#34;&gt;【设计模式】单例模式&lt;/h2&gt;
+&lt;h2 id=&#34;设计模式php实现-单例模式&#34;&gt;【设计模式php实现】单例模式&lt;/h2&gt;
 
 &lt;h3 id=&#34;为什么要使用单例模式&#34;&gt;为什么要使用单例模式&lt;/h3&gt;
 
