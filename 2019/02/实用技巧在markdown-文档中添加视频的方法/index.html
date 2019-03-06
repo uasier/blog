@@ -242,24 +242,21 @@
     </div>
 	<div class="post-comment">
 		
-		  
-  
-  <div id="vcomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-
-  <script type="text/javascript">
-    new Valine({
-        el: '#vcomments' ,
-        appId: 'jDr8uVL2FdSEUw1Sebv8MANE-gzGzoHsz',
-        appKey: 'wOcTjnqlxLsdkyb16KVHAsNi',
-        notify: 'true', 
-        verify: 'true', 
-        avatar:'mm', 
-        placeholder: '说点什么吧...',
-        visitor: 'false'
-    });
-  </script>
+		  <div id="git-comments"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+  var gitment = new Gitment({
+    id: '',  
+    owner: 'uasier',
+    repo: 'gitment',
+    oauth: {
+      client_id: 'cc1beb87a14123b0d525',
+      client_secret: 'f1d4dd047a761438c96e9584a5cc54bcb20ec48a',
+    }
+  })
+  gitment.render('git-comments')
+</script>
 
 	</div>
 </article>
