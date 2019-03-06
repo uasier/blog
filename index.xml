@@ -10,14 +10,14 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>【实用技巧】在md文档中添加视频的方法</title>
-      <link>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <title>【实用技巧】在markdown 文档中添加视频的方法</title>
+      <link>https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 08 Feb 2019 14:09:29 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>
 
-&lt;h3 id=&#34;在markdown-文档中添加视频的方法&#34;&gt;在markdown 文档中添加视频的方法&lt;/h3&gt;
+&lt;h3 id=&#34;实用技巧-在markdown-文档中添加视频的方法&#34;&gt;【实用技巧】在markdown 文档中添加视频的方法&lt;/h3&gt;
 
 &lt;p&gt;代码块：&lt;/p&gt;
 
@@ -57,14 +57,14 @@
     </item>
     
     <item>
-      <title>【设计模式php实现】单例模式</title>
-      <link>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</link>
+      <title>【设计模式】单例模式（php实现）</title>
+      <link>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Sat, 02 Feb 2019 14:09:29 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/</guid>
       <description>
 
-&lt;h2 id=&#34;设计模式php实现-单例模式&#34;&gt;【设计模式php实现】单例模式&lt;/h2&gt;
+&lt;h2 id=&#34;设计模式-单例模式-php实现&#34;&gt;【设计模式】单例模式（php实现）&lt;/h2&gt;
 
 &lt;h3 id=&#34;为什么要使用单例模式&#34;&gt;为什么要使用单例模式&lt;/h3&gt;
 
@@ -211,17 +211,6 @@ var_dump($f);
 &lt;h3 id=&#34;工具&#34;&gt;工具&lt;/h3&gt;
 
 &lt;p&gt;🔗 &lt;a href=&#34;http://www.dooccn.com/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;dooccn&lt;/a&gt; : 从php 到go 我都在用这个网站提供的在线运行功能，实属牛逼。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://blog.uasier.com/2019/01/first/</link>
-      <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
-      
-      <guid>https://blog.uasier.com/2019/01/first/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;### Hello Hugo
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

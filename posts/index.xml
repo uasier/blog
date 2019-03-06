@@ -12,32 +12,23 @@
     
     
     <item>
-      <title>【实用技巧】在md文档中添加视频的方法</title>
-      <link>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <title>【实用技巧】在markdown 文档中添加视频的方法</title>
+      <link>https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 08 Feb 2019 14:09:29 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/2019/02/%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description> 在markdown 文档中添加视频的方法 代码块：
+      <guid>https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description> 【实用技巧】在markdown 文档中添加视频的方法 代码块：
 &amp;lt;iframe width=&amp;quot;800&amp;quot; height=&amp;quot;450&amp;quot; src=&amp;quot;//player.bilibili.com/player.html?aid=16688970&amp;amp;cid=27215876&amp;amp;page=1&amp;quot; scrolling=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; 暂时不支持视频插入，请联系我，谢谢。 &amp;lt;/iframe&amp;gt;  注意事项： 1. 必须要标明height 否则iframe就会特别小 2. 注意属性是需要引号的，单引双引都ok 3. 有些网站分享出来的代码块是有问题的，需要调整（for example 哔哩哔哩 需要调整为以上格式）  markdown上显示效果：
 暂时不支持视频插入，请联系我，谢谢。  </description>
     </item>
     
     <item>
-      <title>【设计模式php实现】单例模式</title>
-      <link>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</link>
+      <title>【设计模式】单例模式（php实现）</title>
+      <link>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Sat, 02 Feb 2019 14:09:29 +0800</pubDate>
       
-      <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/</guid>
-      <description>【设计模式php实现】单例模式 为什么要使用单例模式 php中有哪些方式实现新建一个对象实例  通过new实例化对象 通过clone复制对象 通过序列化反序列化得到对象实例 通过类的反射实例化对象  如何阻止这种实例化实现理想的单例模式 1. new test();//通过new实例化对象	: 通过更改构造方法为private 阻止使用方直接new 对象 3. 通过clone复制对象 : 通过定义private __clone()阻止复制操作 4. 通过序列化反序列化得到对象实例 ：通过定义__wakeup()阻止对象的反序列化。 5. 通过类的反射实例化对象：暂时还没有相应的方法去阻止使用此方法实现对象多例  代码实现 &amp;lt;?php /** * Created by PhpStorm. * User: Uasier * Date: 2018/10/17 * Time: 15:10 */ /** * 单例模式实例 */ class Singleton { /** * 私有变量存实例 * @var Singleton */ private static $instance; /** * 私有构造函数 * Singleton constructor. */ private function __construct() { var_dump(&#39;构造了对象&#39;); } /** * clone 魔术方法 */ private function __clone() { var_dump(&#39;复制了对象&#39;); } /** * sleep 魔术方法 * @return array */ public function __sleep(){ //todo 如何阻止 var_dump(&#39;序列化了对象&#39;); return []; } /** * wakeup 魔术方法 */ public function __wakeup(){ //todo 如何阻止 var_dump(&#39;反序列化了对象&#39;); } /** * 公有获取实例方法 * @return Singleton */ public static function getInstance() { if (!</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://blog.uasier.com/2019/01/first/</link>
-      <pubDate>Thu, 31 Jan 2019 20:10:31 +0800</pubDate>
-      
-      <guid>https://blog.uasier.com/2019/01/first/</guid>
-      <description>### Hello Hugo  </description>
+      <guid>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/</guid>
+      <description>【设计模式】单例模式（php实现） 为什么要使用单例模式 php中有哪些方式实现新建一个对象实例  通过new实例化对象 通过clone复制对象 通过序列化反序列化得到对象实例 通过类的反射实例化对象  如何阻止这种实例化实现理想的单例模式 1. new test();//通过new实例化对象	: 通过更改构造方法为private 阻止使用方直接new 对象 3. 通过clone复制对象 : 通过定义private __clone()阻止复制操作 4. 通过序列化反序列化得到对象实例 ：通过定义__wakeup()阻止对象的反序列化。 5. 通过类的反射实例化对象：暂时还没有相应的方法去阻止使用此方法实现对象多例  代码实现 &amp;lt;?php /** * Created by PhpStorm. * User: Uasier * Date: 2018/10/17 * Time: 15:10 */ /** * 单例模式实例 */ class Singleton { /** * 私有变量存实例 * @var Singleton */ private static $instance; /** * 私有构造函数 * Singleton constructor. */ private function __construct() { var_dump(&#39;构造了对象&#39;); } /** * clone 魔术方法 */ private function __clone() { var_dump(&#39;复制了对象&#39;); } /** * sleep 魔术方法 * @return array */ public function __sleep(){ //todo 如何阻止 var_dump(&#39;序列化了对象&#39;); return []; } /** * wakeup 魔术方法 */ public function __wakeup(){ //todo 如何阻止 var_dump(&#39;反序列化了对象&#39;); } /** * 公有获取实例方法 * @return Singleton */ public static function getInstance() { if (!</description>
     </item>
     
   </channel>
