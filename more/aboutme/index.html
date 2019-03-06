@@ -273,7 +273,7 @@
 <script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
   var gitment = new Gitment({
-    id: '',  
+    id: decodeURI(window.location.pathname),  
     owner: 'uasier',
     repo: 'gitment',
     oauth: {
