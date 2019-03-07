@@ -285,8 +285,15 @@ var_dump($f);
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/>https://blog.uasier.com/2019/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8Fphp%E5%AE%9E%E7%8E%B0/</span>
+                    <a id="url"></span>
             </p>
+            <script>
+                var url = decodeURI(window.location.pathname);
+                var alink = document.getElementById('url');
+                alink.setAttribute("href", url);
+                alink.innerHTML = url;
+            </script>
+            
             
              
             <p class="copyright-item lincese">
@@ -365,7 +372,7 @@ var_dump($f);
          
             <a href="http://www.miibeian.gov.cn/" target="_blank" rel="external nofollow">皖ICP备17008516号-4 </a> |
          
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/uasier/leaveit" target="_blank" rel="external nofollow">LeaveIt(改)</a></span> 
     </div>
 </footer>
 

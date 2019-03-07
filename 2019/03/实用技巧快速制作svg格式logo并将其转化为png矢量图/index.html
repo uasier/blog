@@ -195,8 +195,15 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://blog.uasier.com/2019/03/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E5%88%B6%E4%BD%9Csvg%E6%A0%BC%E5%BC%8Flogo%E5%B9%B6%E5%B0%86%E5%85%B6%E8%BD%AC%E5%8C%96%E4%B8%BApng%E7%9F%A2%E9%87%8F%E5%9B%BE/>https://blog.uasier.com/2019/03/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E5%88%B6%E4%BD%9Csvg%E6%A0%BC%E5%BC%8Flogo%E5%B9%B6%E5%B0%86%E5%85%B6%E8%BD%AC%E5%8C%96%E4%B8%BApng%E7%9F%A2%E9%87%8F%E5%9B%BE/</span>
+                    <a id="url"></span>
             </p>
+            <script>
+                var url = decodeURI(window.location.pathname);
+                var alink = document.getElementById('url');
+                alink.setAttribute("href", url);
+                alink.innerHTML = url;
+            </script>
+            
             
              
             <p class="copyright-item lincese">
@@ -278,7 +285,7 @@
          
             <a href="http://www.miibeian.gov.cn/" target="_blank" rel="external nofollow">皖ICP备17008516号-4 </a> |
          
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/uasier/leaveit" target="_blank" rel="external nofollow">LeaveIt(改)</a></span> 
     </div>
 </footer>
 

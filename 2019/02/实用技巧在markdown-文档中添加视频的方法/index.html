@@ -198,8 +198,15 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/>https://blog.uasier.com/2019/02/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7%E5%9C%A8markdown-%E6%96%87%E6%A1%A3%E4%B8%AD%E6%B7%BB%E5%8A%A0%E8%A7%86%E9%A2%91%E7%9A%84%E6%96%B9%E6%B3%95/</span>
+                    <a id="url"></span>
             </p>
+            <script>
+                var url = decodeURI(window.location.pathname);
+                var alink = document.getElementById('url');
+                alink.setAttribute("href", url);
+                alink.innerHTML = url;
+            </script>
+            
             
              
             <p class="copyright-item lincese">
@@ -280,7 +287,7 @@
          
             <a href="http://www.miibeian.gov.cn/" target="_blank" rel="external nofollow">皖ICP备17008516号-4 </a> |
          
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/uasier/leaveit" target="_blank" rel="external nofollow">LeaveIt(改)</a></span> 
     </div>
 </footer>
 
