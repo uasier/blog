@@ -288,7 +288,7 @@ var_dump($f);
                     <a id="url"></span>
             </p>
             <script>
-                var url = decodeURI(window.location.pathname);
+                var url = decodeURI(window.location.href);
                 var alink = document.getElementById('url');
                 alink.setAttribute("href", url);
                 alink.innerHTML = url;
