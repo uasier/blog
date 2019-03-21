@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 Mar 2019 15:13:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 21:20:11 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.uasier.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【爬坑记录】php获取当前时间戳（16位长度，微秒单位）</title>
+      <link>https://blog.uasier.com/2019/03/%E7%88%AC%E5%9D%91%E8%AE%B0%E5%BD%95php%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%88%B316%E4%BD%8D%E9%95%BF%E5%BA%A6%E5%BE%AE%E7%A7%92%E5%8D%95%E4%BD%8D/</link>
+      <pubDate>Thu, 21 Mar 2019 21:20:11 +0800</pubDate>
+      
+      <guid>https://blog.uasier.com/2019/03/%E7%88%AC%E5%9D%91%E8%AE%B0%E5%BD%95php%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E6%88%B316%E4%BD%8D%E9%95%BF%E5%BA%A6%E5%BE%AE%E7%A7%92%E5%8D%95%E4%BD%8D/</guid>
+      <description>php获取当前时间戳（16位长度，微秒单位） 由于被分配任务说要做一个调用链追踪（实际上就是用的zipkin实现的），在实现过程中踩了一个坑。 问题需求，获得当前微秒级别时间戳。issue地址：https://github.com/whitemerry/phpkin/issues/18  别人的解决方案 //直接上代码 function zipkin_timestamp() { return intval(microtime(true) * 1000 * 1000); }  出现的问题 线上linux系统没有问题，跑出来结果是正确的， windows系统错误  函数 microtime(); (PHP 4, PHP 5, PHP 7) microtime — 返回当前 Unix 时间戳和微秒数 说明 mixed microtime ([ bool $get_as_float ] ) microtime() 当前 Unix 时间戳以及微秒数。本函数仅在支持 gettimeofday() 系统调用的操作系统下可用。 如果调用时不带可选参数，本函数以 &amp;quot;msec sec&amp;quot; 的格式返回一个字符串，其中 sec 是自 Unix 纪元（0:00:00 January 1, 1970 GMT）起到现在的秒数，msec 是微秒部分。字符串的两部分都是以秒为单位返回的。 如果给出了 get_as_float 参数并且其值等价于 TRUE，microtime() 将返回一个浮点数。  最后解决方案 //直接上代码 //生成时间戳（存储数据时应该用一个bigint） function zipkin_timestamp() { $str = microtime(); $fstr = substr($str,11,10).</description>
+    </item>
     
     <item>
       <title>【实用技巧】快速制作svg格式logo并将其转化为png矢量图</title>

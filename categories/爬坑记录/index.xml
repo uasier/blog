@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>“php&#34; on Uasier</title>
-    <link>https://blog.uasier.com/tags/php/</link>
-    <description>Recent content in “php&#34; on Uasier</description>
+    <title>爬坑记录 on Uasier</title>
+    <link>https://blog.uasier.com/categories/%E7%88%AC%E5%9D%91%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 爬坑记录 on Uasier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 21 Mar 2019 21:20:11 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.uasier.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.uasier.com/categories/%E7%88%AC%E5%9D%91%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
